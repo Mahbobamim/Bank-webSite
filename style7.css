@@ -1,0 +1,23 @@
+ul.list{
+   
+    list-style-type: none;
+    text-align:center;  
+   }
+   ul.list li{
+       width:250px;
+       margin-bottom: 15px;
+   
+   }
+   ul.list li input{
+       width:250px;
+       text-align: center;
+       padding:8px 0px;
+       border: none;
+       background-color: #d3d3d3;
+       border-radius: 5px;
+   }
+   ul.list li input[type="button"]{
+       background-color:blue;
+       color:#fff;
+       transition:0.2s ease;
+   }

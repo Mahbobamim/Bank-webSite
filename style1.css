@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:url('https://about.canva.com/wp-content/uploads/sites/3/2016/08/Cafe-Logo.png') repeat ;
+    padding-top:30vh;
+
+}
+.form-container{
+    width: 250px;
+    height:auto;
+    padding:50px 30px;
+    background-color:#fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    margin: auto;
+    position: relative;
+
+}
+.user-img{
+    background: url('https://image.shutterstock.com/image-vector/user-login-authenticate-icon-vector-260nw-1236250177.jpg') no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    position: absolute;
+    top:-20px;
+    left:110px;
+} 
+ul.list{
+   
+ list-style-type: none;
+ text-align:center;  
+}
+ul.list li{
+    width:250px;
+    margin-bottom: 15px;
+
+}
+ul.list li input{
+    width:250px;
+    text-align: center;
+    padding:8px 0px;
+    border: none;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+ul.list li input[type="button"]{
+    background-color:blue;
+    color:#fff;
+    transition:0.2s ease;
+
+}
+ul.list li:nth-child(6){
+    color:red;
+}

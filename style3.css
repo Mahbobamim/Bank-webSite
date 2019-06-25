@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.selection{
+    width: auto;
+    height:500px;
+    margin:20px ;
+}
